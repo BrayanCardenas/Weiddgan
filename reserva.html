@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo-reserva.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <title>Plantilla</title>
+    <style>
+        .reserva{
+            background-image: url(img/bar.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .calendar .image{
+            width: 100%;
+            height: 200px;
+            box-sizing: border-box;
+            background-image: url(img/cocina-trabajo-copia.jpg);
+            background-size: cover;
+            box-sizing: border-box;
+            padding: 20px;
+        }   
+
+	</style>
+</head>
+<body>
+<header>
+    <nav class="container navbar navbar-toggleable-md navbar-inverse bg-faded d-flex justify-contenet-between fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#fm-menu" aria-controls="fm-menu" aria-expanded="false" aria-label="Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="Proyecto_Final.html#home" class="navbar-brand">
+            <img class="img-fluid navbar-brand" src="img/logo.png" width="55">
+        </a>
+        <div class="collapse navbar-collapse" 
+         id="fm-menu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="Proyecto_Final.html#home" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Proyecto_Final.html#nuestra-cocina" class="nav-link">Nuestra Cocina</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Proyecto_Final.html#menus" class="nav-link">Menus</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Proyecto_Final.html#reservas" class="nav-link">Reservas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Proyecto_Final.html#contactanos" class="nav-link">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/?hl=es-la" class="nav-link"><i class="icon-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://es-la.facebook.com/" class="nav-link"><i class="icon-facebook"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <!--  HOME  -->
+    <div class="row reserva">
+        <div class="col-12">
+            <h1>Reserva tu mesa</h1>
+            <div class="boton">
+                <a href="#reservacion"><i class="icon-down-circle"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--  Reservacion  -->
+    <div class="row" id="reservacion">
+        <div class="col-12 info">
+            <div>
+                <p class="uno">Cerrado</p>
+            </div>
+            <div>
+                <p class="dos">Completo</p>
+            </div>
+            <div>
+                <p class="tres">Disponible</p>
+            </div>
+            
+        </div>
+        <div  class="col-12 col-md-5">
+            <div class=" calendario">
+                <div class="col-12 calendar">
+                    <div class="image" width="" >
+                        <h2>1, Lunes</h2>
+                        <h3>Junio | 2020</h3>
+                    </div>
+                    <div class="date">
+                        <div class="day">D</div>
+                        <div class="day">L</div>
+                        <div class="day">M</div>
+                        <div class="day">M</div>
+                        <div class="day">J</div>
+                        <div class="day">V</div>
+                        <div class="day">S</div>
+                        <div class="number"></div>
+                        <div class="number active">1</div>
+                        <div class="c">2</div>
+                        <div class="number">3</div>
+                        <div class="c">4</div>
+                        <div class="co">5</div>
+                        <div class="number">6</div>
+                        <div class="number">7</div>
+                        <div class="number">8</div>
+                        <div class="c">9</div>
+                        <div class="number">10</div>
+                        <div class="c">11</div>
+                        <div class="number">12</div>
+                        <div class="co">13</div>
+                        <div class="co">14</div>
+                        <div class="number">15</div>
+                        <div class="c">16</div>
+                        <div class="number">17</div>
+                        <div class="c">18</div>
+                        <div class="co">19</div>
+                        <div class="number">20</div>
+                        <div class="number">21</div>
+                        <div class="number">22</div>
+                        <div class="c">23</div>
+                        <div class="number">24</div>
+                        <div class="c">25</div>
+                        <div class="co">26</div>
+                        <div class="number">27</div>
+                        <div class="number">28</div>
+                        <div class="number">29</div>
+                        <div class="c">30</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12 col-md-7">
+            <h3>Información del contacto</h3>
+            <form action="">
+
+                <div class="form-group row">
+                    <div class="col-12 col-md-6">                   
+                            <label for="Nombre">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Nombre" name="nombre" id="nombre">       
+                    </div> 
+                    <div class="col-12 col-md-6">                   
+                            <label for="Nombre">Apellido</label>
+                            <input type="text" class="form-control" placeholder="Apellido" name="nombre" id="nombre">       
+                    </div> 
+                </div>
+                
+
+                <div class="form-group row">
+                    <div class="col-12 col-md-6">
+                        <label for="Nombre">Corero Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">   
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="Nombre">Número de Telefono</label>
+                        <input type="number" class="form-control" name="numero" id="numero">   
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-12 col-md-4">
+                        <label for="Nombre">Fecha de la reserva</label>
+                        <input type="date" class="form-control" name="fecha" id="fecha">   
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="Nombre">Hora para reserva</label>
+                        <input type="time" class="form-control" name="hora" id="hora">  
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="Nombre">Número de Personas</label>
+                        <input type="number" class="form-control" name="numero" id="numero">   
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-12">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
+                    </div> 
+                </div>
+
+                    
+
+                <div class="form-group row">
+                    <div class="col-12 text-center">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="terminos" id="terminos" class="form--check-input mr-2">Acepto Terminos y Condiciones
+                        </label>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-9 col-md-4">
+                                <button class="btn btn-lg btn-block" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+   
+
+
+
+
+</body>
+
+<footer>
+    <div class="row">
+        <div class="content col-12 col-md-4">
+            <img src="img/logo-blanco.png" width="90" height="90">
+        </div>        
+        <div class="col-12 col-md-4">
+            <p>Todos los derechos reservados © 2020 Brayan Cardenas</p>
+        </div>
+        <div class="col-12 col-md-4 row sociales">
+            <a href="https://es-la.facebook.com/" class="nav-link"><i class="icon-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=es-la" class="nav-link"><i class="icon-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+    
+<script src="js/jquery-3.2.1.min.js"></script>   
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/proyecto.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

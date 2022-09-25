@@ -1,0 +1,282 @@
+html{
+    scroll-behavior: smooth;
+}
+/*  MENU  */
+header .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(184, 176, 156, 0.8);
+}
+header .container .collapse{
+    width: 560px;
+}
+header .container .collapse i{
+    font-size: 22px;
+}
+header .container .collapse .nav-item a {
+    margin: auto;
+    color:#fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+header .container .collapse .nav-item a:hover, a:focus{
+    background-size: 100% 2px;
+    color: #000000;
+}
+
+
+
+/*  RESERVACION  */
+.container .reserva h1{
+    font-size: 75px;
+    padding-top:260px;
+    text-align: center;
+    margin: 0;
+    color:#fff;
+}
+.container .reserva .boton{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    color:black;
+    padding-top: 90px;
+    padding-bottom: 180px;
+}
+.container .reserva .boton i{
+    color: #fff;
+    font-size: 75px;
+}
+.container .reserva .boton i:hover{
+    color: rgba(184, 176, 156, 0.8);
+}
+
+/*  Informacion  */
+.container .info{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+
+}
+.container .info .uno{
+    background: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 800;
+}
+.container .info .dos{
+    border: 1px solid #b8b09c;
+    color: #B8B09C;
+    padding: 10px 20px;
+    font-weight: 800;
+    height: 44px;
+    
+}
+.container .info .tres{
+    background: #b8b09c;
+    color: #fff;
+    padding: 10px 20px;
+
+    font-weight: 800;
+}
+
+/*  Formulario  */
+.container h3{
+    padding-bottom: 20px;
+}
+.container .form-group input{
+    border-color: #B8B09C;
+    border: none;
+    border-bottom: 1px solid #b8b09c;
+    border-radius: 0;
+}
+.container .form-group textarea{
+    border-color: #B8B09C;
+    border-radius: 0;
+}
+.container .form-group button{
+    border-radius: 0;
+    background: rgba(22, 22, 22);
+    color: #fff;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.container .form-group button:hover{
+    background: #000000;
+}
+
+
+/*  Calendario  */
+.calendario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 75vh;
+}
+.calendar {
+    width: 200px;
+    height: auto;
+    background: rgb(212, 203, 179);
+    box-sizing: border-box;
+    padding: 0;
+}
+.calendar .image h2,
+.calendar .image h3{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.calendar .date{
+    padding: 26px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+.calendar .date div{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+}
+.calendar .date div.day{
+    font-weight: 700;
+}
+.calendar .date div.day:first-child{
+    color: #ff685d;
+    font-weight: 700;
+}
+.calendar .date div.number:nth-child(7n+1){
+    color: #ff685d;
+    font-weight: 700;
+}
+.calendar .date div.number.active{
+    background: #009688;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calendar .date div.number:hover{
+    background: #009688;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calendar .date .c{
+    background: rgba(22, 22, 22);
+    color: #fff;
+}
+.calendar .date .c:hover{
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calendar .date .co{
+    background: #fff;
+    color: #B8B09C;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid ;
+}
+.calendar .date .co:hover{
+    background: #fff;
+    color: #b8b09c;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+}
+.form-check-label{
+    padding-bottom: 15px;
+}
+
+
+/*  FOOTER  */
+footer{
+    background: #241d1b;
+    color: #f5f0ed;
+    padding:0px 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.content {
+	line-height:200px;
+	margin:0px auto;
+	text-align:center;
+}
+ 
+.content img {
+	vertical-align:middle;
+}
+footer p{
+    color: #fff;
+    line-height: 200px;
+    align-items: center;
+}
+footer .sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+footer .sociales i{
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+footer .sociales i:hover{
+    background: #b8b09c;
+}
+
+
+
+@media screen and (max-width:360px){
+    .container .reserva h1{
+        font-size: 70px;
+    }
+    iframe{
+        width: 330px;
+        height: 400px;
+    }
+    .container h3{
+        padding-top:30px;
+    }
+    footer{
+        height: auto;
+    }
+    footer p{
+        height: 30px;
+        line-height: 1;
+        padding: auto;
+        margin: 0;
+    }
+    footer .sociales {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+
+    }
+    footer .sociales i{
+        justify-content: center;
+        text-align: center;
+        padding: auto;
+        
+    }
+}
