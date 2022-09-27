@@ -204,39 +204,19 @@ header .container .collapse .nav-item a:hover, a:focus{
 footer{
     background: #241d1b;
     color: #f5f0ed;
-    padding:0px 30px;
-    margin-top: 50px;
-    text-align: center;
 }
-.content {
-	line-height:200px;
-	margin:0px auto;
-	text-align:center;
-}
- 
-.content img {
-	vertical-align:middle;
-}
-footer p{
-    color: #fff;
-    line-height: 200px;
-    align-items: center;
-}
-footer .sociales{
-    padding: 40px 0;
-    margin-bottom: 40px;
+footer img{
+    width: 90px;
 }
 footer .sociales i{
-    color: #fff;
+    display: inline-block;
     width: 100px;
     height: 100px;
+    margin: 0 15px;
     font-size: 40px;
     line-height: 100px;
-    text-align: center;
     background: #cbcbcb;
-    display: inline-block;
-    margin: 0 20px;
-    text-decoration: none;
+    color: #fff;
     border-radius: 100px;
     transition: all .3s ease;
 }
@@ -256,27 +236,5 @@ footer .sociales i:hover{
     }
     .container h3{
         padding-top:30px;
-    }
-    footer{
-        height: auto;
-    }
-    footer p{
-        height: 30px;
-        line-height: 1;
-        padding: auto;
-        margin: 0;
-    }
-    footer .sociales {
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        padding: auto;
-
-    }
-    footer .sociales i{
-        justify-content: center;
-        text-align: center;
-        padding: auto;
-        
     }
 }

@@ -212,29 +212,7 @@ footer .sociales i:hover{
     }
     .container .reservas .info{
         margin-top: 15px;
-    }
-    footer{
-        height: auto;
-    }
-    footer p{
-        height: 30px;
-        line-height: 1;
-        padding: auto;
-        margin: 0;
-    }
-    footer .sociales {
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        padding: auto;
-
-    }
-    footer .sociales i{
-        justify-content: center;
-        text-align: center;
-        padding: auto;
-        
-    }
+    }   
 }
 
 
