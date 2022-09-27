@@ -1,4 +1,4 @@
-# Restaurante
+# Weiddgan
 
 ## Ver ejemplo en vivo
 https://brayancardenas.github.io/Restaurante/
